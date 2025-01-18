@@ -11,7 +11,7 @@ export const useAuth = () => {
   }, []);
 
   const login = (newToken: string) => {
-    localStorage.setItem('token', newToken);
+    localStorage.setItem('token', newToken); 
     setToken(newToken);
   };
 
