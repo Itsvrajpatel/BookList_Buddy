@@ -5,7 +5,7 @@ import { Book } from '@/types';
 import BookCard from './BookCard';
 
 interface BookListProps {
-  books: Book[];
+  books: Book[]; 
   onEdit: (book: Book) => void;
   onDelete: (id: string) => void;
   searchTerm: string;
