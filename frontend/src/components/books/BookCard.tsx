@@ -7,7 +7,7 @@ interface BookCardProps {
   book: Book;
   onEdit: (book: Book) => void;
   onDelete: (id: string) => void;
-}
+} 
 
 const BookCard = ({ book, onEdit, onDelete }: BookCardProps) => {
   const getRandomColor = () => {
