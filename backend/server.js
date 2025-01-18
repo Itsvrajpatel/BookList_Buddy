@@ -10,7 +10,7 @@ const errorHandler = require('./src/middleware/error');
 const app = express();
 const PORT = 3001;
 
-// Middleware
+// Middleware 
 app.use(cors());
 app.use(express.json());
 
