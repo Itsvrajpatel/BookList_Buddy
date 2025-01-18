@@ -9,7 +9,7 @@ const errorHandler = (err, req, res, next) => {
     }
   
     if (err.name === 'CastError') {
-      return res.status(400).json({
+      return res.status(400).json({ 
         message: 'Invalid ID format'
       });
     }
